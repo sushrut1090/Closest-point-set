@@ -1,7 +1,7 @@
 #include<iostream>
 #include<fstream>
 
-int main() {
+int main () {
     std::ifstream infile{"../coordinates"};
     int dim{}; int number_of_points{};
     if (infile.fail()) {
